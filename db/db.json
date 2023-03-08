@@ -1,17 +1,17 @@
 [
     {
-        "title": "New Note",
-        "text": "Test text",
-        "note_id": "a84b"
-    },
-    {
         "title": "Note 1",
-        "text": "note 1  text\n",
-        "note_id": "0399"
+        "text": "Note 1 text",
+        "id": "5dc6"
     },
     {
         "title": "Note 2",
         "text": "Note 2 text",
-        "note_id": "d069"
+        "id": "fece"
+    },
+    {
+        "title": "Note 3",
+        "text": "Note 3 Text",
+        "id": "f047"
     }
 ]

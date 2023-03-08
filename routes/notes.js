@@ -24,7 +24,7 @@ notes.post('/', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            id: uuid(),
     };
 
     //Adds the new note to current database file.
