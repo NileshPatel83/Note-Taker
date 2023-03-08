@@ -6,6 +6,8 @@ const databaseFilePath = './db/db.json';
 //GET route to retrive all notes.
 notes.get('/', (req, res) => {
 
+    //Reads all notes from databse file and sends the response as jason data.
+    readFromFile(databaseFilePath).then((data) => res.json(JSON.parse(data)));
 });
 
 //POST route to add new note to database file.
@@ -22,7 +24,7 @@ notes.post('/', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            id: uuid(),
     };
 
     //Adds the new note to current database file.
